@@ -1,0 +1,157 @@
+Q0.what is JavaScript?
+Ans. JavaScript, created by Brendan Eich in 1995, is one of the most widely used web development languages. It was designed to build dynamic web pages at first. A script is a JS program that may be added to the HTML of any web page. When the page loads, these scripts execute automatically.
+
+Q1. What is Execution Context in js ? 
+Ans. In Execution Context Everything stored in a key value pair. function are also stored 
+"Everthing In Js Happens Inside The Execution Context"
+
+Q2. Javascript is Synchronous Single Threded Language ?
+Ans. Javascript is a Synchronous Single Threaded Language beacuse Javascript is only execute on command at a time that means that it can only go to the next line once the current line is finished executing.
+
+Q3 Promises In Javascript?
+Ans.JavaScript Promise are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code. Promises are used to handle asynchronous operations in JavaScript.
+Syntex:   var promise = new Promise(function(resolve, reject){
+     //do something
+});
+
+Q4.Callbacks In Javascript?
+Ans.A callback is a function passed as an argument to another function
+This technique allows a function to call another function
+A callback function can run after another function has finished.
+
+Q5.Async await in JavaScript?
+Ans.async and await make promises easier to write"
+async makes a function return a Promise
+await makes a function wait for a Promise
+
+Q6.Higher Order Function In JavaScript?
+Ans. A “higher-order function” is a function that accepts functions as parameters and/or returns a function.
+
+Q7. Undefined Means In JavaScript?
+Ans.Undsefined Means to declare a variable but never used in the program.
+
+Q8.let,var and const in JavaScript?
+Ans.It is also called object literal.
+
+let:-It is an block level scope local variable.
+
+Const:-It is used to decalre a constant variable and this value is never changed whole program.
+
+Var: It is used to create global Variable.
+
+Q9. NaN Means In JavaScript?
+Ans. Is used to Not a Number.In JavaScript, NaN is a number that is not a legal number.
+
+Q10. == and === in JavaScript?
+Ans. == Campare the value but === also compare the datatype.
+
+Q11. this keyward in JavaScript?
+Ans. this keyword refers to the window object and current running object.
+
+Q12. Self Invoking Function in JavaScript?
+Ans. self Invoking function means a function calls automatic without calling.
+
+Q13. Explain Scope in JavaScript?
+Ans. Global Scope:- Global variable can accesed in anywhere.
+window object(aside from let and const)
+
+Function Scope:- Variable Decalares with in function can only be accesed within the function.
+var keyword
+
+Block Scope:- Variables declare with in a Block
+let, const
+
+Q14.what is DOM in JavaScript?
+Ans.With the HTML DOM, JavaScript can access and change all the elements of an HTML document.When a web page is loaded, the browser creates a Document Object Model of the page.The HTML DOM model is constructed as a tree of Objects:
+
+Q15. What is BOM in JavaScript?
+Ans.The Browser Object Model (BOM) allows JavaScript to "talk to" the browser.
+
+Q16. Arrow function in JavaScript?
+Ans. Arrow functions were introduced in ES6.
+Arrow functions allow us to write shorter function syntax:
+It provides a more concise syntax for writing function expressions by removing the "function" and "return" keywords.
+Syntex:- let myFunction = (a, b) => a * b;
+
+Q17.Object Destructing in JavaScript?
+Ans. Means ... (incompletd)
+
+Q18.Loops In JavaScript?
+Ans.for loop:-  
+
+q19.Difference Null and Undefined in JavaScript?
+Ans.Null in JavaScript means an empty value and is also a primitive type in JavaScript.Undefined, on the other hand, means the variable has been declared, but its value has not been assigned.
+
+Q20. Benefits of declare a variable as Null?
+Ans.All variables by default have a null value which is equal to undefined, false, 0 and of course null, to ensure a variable has a true value meaning something meaningful 
+
+Q21. Hoisting in JavaScript?
+Ans. In JavaScript, a variable can be declared after it has been used.
+In other words; a variable can be used before it has been declared.
+
+Q22. Local Storage and Session Storage in JavaScript?
+Ans. local storage are used to save the data locally to the Browser and we were close the browser window the data has been save but in session Storage the data has been save the particular time and once you have close your browser window the data has been lost. and local storage we recieved the data from any browser window but not in session storage.
+
+Q23. Closures in JavaScript?
+Ans. Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure ‘remembers’ the environment in which it was created.
+
+Q24. Function Currying in JavaScript?
+Ans.Currying in JavaScript transforms a function with multiple arguments into a nested series of functions, each taking a single argument.
+ function sum(a, b) {
+    // do something
+}
+function _sum(a, b, c) {
+    // do something
+}
+
+Q25. What are the Features Of Es6 in JavaScript?
+Ans. ES6 or the ECMAScript 2015 is the 6th and major edition of the ECMAScript language specification standard.
+
+  i) let and const Keywords
+ ii) Arrow Functions
+iii) Multi-line Strings
+ iv) Default Parameters
+  v) Template Literals
+ vi) Destructuring Assignment
+vii) Enhanced Object Literals
+viii) Promises
+xi)  Classes 
+ x)  Modules
+
+Q26. What is Array in JavaScript?
+Ans. Array is a collection of similar type of elements. & Array elements always start with 0 and goes to size-1. 
+
+Q27. Methods In Array?
+Ans. 
+1 Array.push():- The push() method adds one or more elements to the end of an array and returns the new length of the array.
+
+2 Array.map():- The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+3.Array.filter():- The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+
+4.Array.form():- The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object. 
+
+5.Array.find():- The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+
+6.Array.slice():-The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end
+
+7.Array.splice():-The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements
+
+8.Array.pop():- The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+
+9.Array.forEach():- The forEach() method executes a provided function once for each array element.
+
+10.Array.reduce():-The reduce() method executes a user-supplied "reducer" callback function on each element of the array.
+
+Q28.Call,bind and apply methods in JavaScript?
+Ans.Call:-Call is a function that helps you change the context of the invoking function. it helps you replace the value of this inside a function with whatever value you want.
+
+Bind:-Bind is a function that helps you create another function that you can execute later with the new context of this that is provided.
+
+Apply:-Apply is very similar to the call function. The only difference is that in apply you can pass an array as an argument list.
+
+Q29. What is Prototype in JavaScript?
+Ans. Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain what a prototype is, how prototype chains work, and how a prototype for an object can be set.
+
+Q30. IIFE in JavaScript?
+Ans. An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
